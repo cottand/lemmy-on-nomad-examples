@@ -1,4 +1,4 @@
-# Lemmy on Nomad
+# Lemmy Deployment on Nomad
 
 Lemmy has well-documented Docker and Ansible deployment docs, from which you can derive a Nomad config. I thought I would share a variation of the one I am currently using as a starting point for whoever wants to selfhost Lemmy on Nomad rather than Docker or Ansible.
 
@@ -18,7 +18,7 @@ Some benefits of using Nomad (specifically for Lemmy) include:
 
 ## Requirements
 
-To keep it as simple, this job file
+They may not be the best choices for your specific set-up. But to keep it as simple, this job file:
 - **Uses [Nomad Service Discovery](https://developer.hashicorp.com/nomad/docs/networking/service-discovery).** If you use Consul, you probably want to change this. The steps should be simple
     - Remove `provider = nomad` from services' declarations
     - Change `range nomadService` to `range service` in the themplates

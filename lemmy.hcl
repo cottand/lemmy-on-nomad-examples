@@ -147,8 +147,8 @@ EOF
         LEMMY_UI_LEMMY_EXTERNAL_HOST = "${var.instance_name}"
         LEMMY_UI_HOST                = "0.0.0.0:${NOMAD_PORT_http}"
         # set up HTTPS!
-        LEMMY_HTTPS                  = false
-        LEMMY_UI_DEBUG               = true
+        LEMMY_HTTPS    = false
+        LEMMY_UI_DEBUG = true
       }
 
       service {

@@ -18,5 +18,7 @@ Some benefits of using Nomad (specifically for Lemmy) include:
 ## Available examples
 
 So far, we have examples of Lemmy set up using:
-- [Nomad service discovery + Nginx Proxy](nomad-discovery-nginx/README.md)
-- [Nomad service discovery + Traefik Proxy]((nomad-discovery-traefik/README.md))
+- [Nomad service discovery + Nginx Proxy](nomad-discovery-nginx/README.md) under `nomad-discovery-nginx/`
+- [Nomad service discovery + Traefik Proxy]((nomad-discovery-traefik/README.md))  under `nomad-discovery-traefik/`
+
+There is a job example for `pict-rs` provided separately, under `pictrs-object-storage/`

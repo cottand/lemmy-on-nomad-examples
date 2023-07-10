@@ -1,6 +1,6 @@
 variable "lemmy_version" {
   type    = string
-  default = "0.18.0"
+  default = "0.18.1"
 }
 variable "instance_name" {
   type    = string
